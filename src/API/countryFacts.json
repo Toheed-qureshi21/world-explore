@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "India",
+        "capital": "New Delhi",
+        "population": 1380000000,
+        "facts": "India is the largest democracy, with over 1,600 languages and a rich cultural diversity."
+    },
+    {
+        "id": 2,
+        "name": "Canada",
+        "capital": "Ottawa",
+        "population": 38000000,
+        "facts": "Canada has the longest coastline in the world, measuring over 202,080 kilometers in length."
+    },
+    {
+        "id": 3,
+        "name": "Japan",
+        "capital": "Tokyo",
+        "population": 125800000,
+        "facts": "Japan includes over 6,800 islands, with the largest being Honshu, Hokkaido, Kyushu, and Shikoku."
+    },
+    {
+        "id": 4,
+        "name": "Australia",
+        "capital": "Canberra",
+        "population": 26000000,
+        "facts": "Australia is a continent-country with unique wildlife, having more kangaroos than people."
+    },
+    {
+        "id": 5,
+        "name": "Brazil",
+        "capital": "Brasília",
+        "population": 214300000,
+        "facts": "Brazil's Amazon Rainforest is crucial for Earth, producing roughly 20% of our planet’s oxygen."
+    },
+    {
+        "id": 6,
+        "name": "Germany",
+        "capital": "Berlin",
+        "population": 83000000,
+        "facts": "Germany is famed for engineering and is where Carl Benz created the first automobile in 1885."
+    },
+    {
+        "id": 7,
+        "name": "France",
+        "capital": "Paris",
+        "population": 67000000,
+        "facts": "France, home to the Eiffel Tower and Louvre Museum, is the world’s most visited country."
+    },
+    {
+        "id": 8,
+        "name": "Italy",
+        "capital": "Rome",
+        "population": 59000000,
+        "facts": "Italy, home to the Colosseum and Venice, boasts more than 50 UNESCO World Heritage sites."
+    }
+]
