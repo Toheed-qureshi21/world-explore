@@ -1,11 +1,14 @@
-import React, { memo, useContext } from 'react'
+import React, { memo, useContext, useEffect, useState } from 'react'
 import { OurContext } from '../../context/Provider'
 
-const SearchFunctionality = memo(({regionCounts,totalCountries}) => {
+const SearchFunctionality = ({regionCounts,totalCountries}) => {
     const {search,setSearch,filter,setFilter} = useContext(OurContext);
+   
+   
     const handleInputChange = (event) => {
       setSearch(event.target.value)
     }
+    
     const handleSelectChange = (event) => {
       setFilter(event.target.value);
     }
@@ -28,7 +31,7 @@ const SearchFunctionality = memo(({regionCounts,totalCountries}) => {
         </div>
     </section>
   )
-})
+}
 
-export default SearchFunctionality
+export default memo(SearchFunctionality)
 

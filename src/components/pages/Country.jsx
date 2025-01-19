@@ -15,6 +15,7 @@ const Country = () => {
     queryFn:gotData,
     staleTime:5*60*1000,
   });
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [data]);
@@ -30,8 +31,9 @@ const Country = () => {
     }
     return country?.region === filter;
   }
-  
+
   const filteredCountries = data?.filter((curr)=>searchedCountries(curr)&&filterRegion(curr));
+  
   const regionCounts = data?.reduce((acc, country) => {
     if (!acc[country.region]) acc[country.region] = 0;
     acc[country.region]++;
@@ -39,6 +41,7 @@ const Country = () => {
   }, {});
   const totalCountries = data?.length;
   
+
   if (isLoading || navigation.state==="loading") {
     return <Loader/>
   }
